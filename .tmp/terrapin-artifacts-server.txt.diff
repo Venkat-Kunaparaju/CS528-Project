@@ -1,0 +1,21 @@
+27c27
+< Connection from 127.0.0.1 port 58312 on 127.0.0.1 port 2200 rdomain ""
+---
+> Connection from 127.0.0.1 port 58316 on 127.0.0.1 port 2200 rdomain ""
+57c57
+< Failed none for victim from 127.0.0.1 port 58312 ssh2
+---
+> Failed none for victim from 127.0.0.1 port 58316 ssh2
+60c60
+< Failed password for victim from 127.0.0.1 port 58312 ssh2
+---
+> Failed password for victim from 127.0.0.1 port 58316 ssh2
+63,68c63
+< Failed password for victim from 127.0.0.1 port 58312 ssh2
+< Connection closed by authenticating user victim 127.0.0.1 port 58312 [preauth]
+< debug1: do_cleanup [preauth]
+< debug1: monitor_read_log: child log fd closed
+< debug1: do_cleanup
+< debug1: Killing privsep child 8
+---
+> Failed password for victim from 127.0.0.1 port 58316 ssh2

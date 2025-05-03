@@ -1,0 +1,6 @@
+--- Proof of Concept for extension downgrade attack (ChaCha20-Poly1305) ---
+[+] MitM Proxy started. Listening on ('0.0.0.0', 2201) for incoming connections...
+[+] Accepted connection from: ('127.0.0.1', 57946)
+[+] Establishing new target connection to ('127.0.0.1', 2200).
+[+] Performing extension downgrade
+[+] Downgrade performed. Spawning new forwarding threads to handle client connection from now on.
